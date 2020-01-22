@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+}
+p {
+	color: white;
+	font-family: oswald;
+    font-style: normal;
+    font-size: 20px;
+}
+h2 {
+	color: white;
+	font-family: bottom;
+
+
+}
+h3 {
+	color: white;
+	font-family: sans-serif;
+}
+ul {
+	color: lightblue;
+	font-family: serif;
+	font-style: 22px;
+}
+
+div { text-align: center; }
+ul { display: inline-block; text-align: left;}
+
+a {
+	color: lightblue;
+}
