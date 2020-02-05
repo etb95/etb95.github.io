@@ -15,8 +15,6 @@ p {
 h2 {
 	color: white;
 	font-family: bottom;
-
-
 }
 h3 {
 	color: white;
@@ -33,4 +31,20 @@ ul { display: inline-block; text-align: left;}
 
 a {
 	color: lightblue;
+}
+#two{
+border: 10px solid gray;
+padding: 20px solid gray;
+margin: 0 auto;
+text-align: center;
+}
+
+
+#block{
+	text-align:center;
+	display: inline-block;
+}
+#center
+{
+	width:1200px;
 }
