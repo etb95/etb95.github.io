@@ -44,7 +44,18 @@ text-align: center;
 	text-align:center;
 	display: inline-block;
 }
-#center
+
+#ricky{
+  text-align: right;
+  font-size: 20px;
+  border: 5px grey;
+  padding: 10px;
+  margin: 0 auto;
+}
+#description
 {
-	width:1200px;
+border: 10px solid gray;
+padding: 20px solid gray;
+margin: 0 auto;
+text-align: center;
 }
