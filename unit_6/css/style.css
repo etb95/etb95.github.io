@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+}
+p {
+	color: white;
+	font-family: oswald;
+    font-style: normal;
+    font-size: 20px;
+}
+h2 {
+	color: white;
+	font-family: bottom;
+}
+h3 {
+	color: white;
+	font-family: sans-serif;
+}
+ul {
+	color: lightblue;
+	font-family: serif;
+	font-style: 22px;
+}
+
+div { text-align: center; }
+ul { display: inline-block; text-align: left;}
+
+a {
+	color: lightblue;
+}
+#two{
+border: 10px solid gray;
+padding: 20px solid gray;
+margin: 0 auto;
+text-align: center;
+}
+
+
+#block{
+	text-align:center;
+	display: inline-block;
+}
+
+.ricky{
+background-color: green;
+border: 1px black solid;
+padding: 20px;
+float: left;
+width: 35%;
+text-align: left;
+}
+.wrapper
+{
+text-align: center; 
+}
+.description
+{
+ background-color: lightblue;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 55%;
+
+}
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
