@@ -37,12 +37,14 @@ border: 10px solid gray;
 padding: 20px solid gray;
 margin: 0 auto;
 text-align: center;
+clear: both;
 }
 
 
 #block{
 	text-align:center;
 	display: inline-block;
+    clear: both;
 }
 
 .ricky{
@@ -50,12 +52,14 @@ background-color: green;
 border: 1px black solid;
 padding: 20px;
 float: left;
-width: 35%;
+width: 45%;
 text-align: left;
+clear: both;
 }
 .wrapper
 {
-text-align: center; 
+text-align: center;
+clear:both; 
 }
 .description
 {
@@ -63,9 +67,10 @@ text-align: center;
     border: 1px black solid;
     padding: 20px;
     float: right;   
-    width: 55%;
-
+    width: 50%;
+    clear: both;
 }
+
 #two_column {
     background-color: #FFB7CF;
     border: 1px black solid;
