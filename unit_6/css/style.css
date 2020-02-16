@@ -38,7 +38,7 @@ padding: 20px solid gray;
 margin: 0 auto;
 text-align: center;
 float: center;
-clear: both;
+clear: right;
 }
 
 #three{
@@ -48,6 +48,7 @@ margin: 0 auto;
 text-align: center;
 float: center;
 clear: both;
+width:50%;
 }
 
 
