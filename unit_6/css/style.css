@@ -37,7 +37,17 @@ border: 10px solid gray;
 padding: 20px solid gray;
 margin: 0 auto;
 text-align: center;
+float: center;
+clear: both;
+}
 
+#three{
+border: 10px solid gray;
+padding: 20px solid gray;
+margin: 0 auto;
+text-align: center;
+float: center;
+clear: both;
 }
 
 
@@ -51,20 +61,20 @@ background-color: green;
 border: 1px black solid;
 padding: 20px;
 float: left;
-width: 45%;
+width: 40%;
 text-align: left;
 }
 .wrapper
 {
 text-align: center;
-clear:both; 
 }
 .description
 {
  background-color: lightblue;
     border: 1px black solid;
     padding: 20px;
-    float: right;   
+    float: right;
+    clear: right;   
     width: 50%;
 }
 
@@ -90,6 +100,7 @@ clear:both;
     width: 62%;
 }
 
+.clearfix:before,
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -97,5 +108,8 @@ clear:both;
     content: " ";
     clear: both;
     height: 0;
+}
+.clearfix:after {
+    clear: both;
 }
 
