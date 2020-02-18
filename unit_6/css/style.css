@@ -32,23 +32,22 @@ ul { display: inline-block; text-align: left;}
 a {
 	color: lightblue;
 }
+
+#one{
+background-color: black;
+padding: 125% solid gray;
+}
+
 #two{
-border: 10px solid gray;
-padding: 20px solid gray;
-margin: 0 auto;
-text-align: center;
-float: center;
-clear: right;
+background-color: black;
+border: 6.25% solid gray;
+padding: 125% solid gray;
 }
 
 #three{
-border: 10px solid gray;
-padding: 20px solid gray;
-margin: 0 auto;
-text-align: center;
-float: center;
-clear: both;
-width:50%;
+background-color: black;
+border: 6.25% solid gray;
+padding: 125% solid gray;
 }
 
 
@@ -63,7 +62,6 @@ border: 1px black solid;
 padding: 20px;
 float: left;
 width: 40%;
-text-align: left;
 }
 .wrapper
 {
@@ -71,12 +69,11 @@ text-align: center;
 }
 .description
 {
- background-color: lightblue;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;
-    clear: right;   
-    width: 50%;
+  background-color: lightblue;
+    border: 1px solid gray;
+    padding: 20px solid gray;
+    float: left;   
+    width: 52%;
 }
 
 #two_column {
