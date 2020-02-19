@@ -34,7 +34,7 @@ a {
 }
 
 #one{
-background-color: black;
+background-color: lightblue;
 border: 6.25% solid gray;
 padding: 125% solid gray;
 }
@@ -71,7 +71,7 @@ text-align: center;
 .description
 {
   background-color: lightblue;
-    border: 1px solid gray;
+    border: 1px black;
     padding: 20px solid gray;
     float: left;   
     width: 52%;
