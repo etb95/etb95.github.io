@@ -53,7 +53,6 @@ padding: 125% solid gray;
 background-color: black;
 border: 6.25% solid gray;
 padding: 125% solid gray;
-text-align: center;
 }
 #four{
 text-align: center;
@@ -72,6 +71,14 @@ float: left;
 width: 40%;
 }
 .wrapper
+{
+text-align: center;
+}
+.gym
+{
+text-align: center;
+}
+.group
 {
 text-align: center;
 }
