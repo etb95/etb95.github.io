@@ -53,8 +53,11 @@ padding: 125% solid gray;
 background-color: black;
 border: 6.25% solid gray;
 padding: 125% solid gray;
+text-align: center;
 }
-
+#four{
+text-align: center;
+}
 
 #block{
 	text-align:center;
@@ -91,7 +94,8 @@ text-align: center;
     border: 1px black solid;
     padding: 20px;
     float: left;
-    width: 30%;
+    width: 40%;
+    text-align: center;
 }
 
 #right {
@@ -99,7 +103,8 @@ text-align: center;
     border: 1px black solid;
     padding: 20px;
     float: right;   
-    width: 62%;
+    width: 45%;
+    text-align: center;
 }
 
 .center {
