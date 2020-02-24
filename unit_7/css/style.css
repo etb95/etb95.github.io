@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+}
+p {
+	color: white;
+	font-family: oswald;
+    font-style: normal;
+    font-size: 20px;
+}
+h2 {
+	color: white;
+	font-family: bottom;
+}
+h3 {
+	color: white;
+	font-family: sans-serif;
+}
+h4 {
+    font-family: sans-serif;
+}
+ul {
+	color: lightblue;
+	font-family: serif;
+	font-style: 22px;
+}
+
+div { text-align: center; }
+ul { display: inline-block; text-align: left;}
+
+a {
+	color: lightblue;
+}
+
+#one{
+background-color: lightblue;
+border: 6.25% solid gray;
+padding: 125% solid gray;
+margin: 25px;
+}
+
+#two{
+background-color: black;
+border: 6.25% solid gray;
+padding: 125% solid gray;
+}
+
+#three{
+background-color: black;
+border: 6.25% solid gray;
+padding: 125% solid gray;
+}
+
+
+#block{
+	text-align:center;
+	display: inline-block;
+}
+
+.ricky{
+background-color: green;
+border: 1px black solid;
+padding: 20px;
+float: left;
+width: 40%;
+}
+.wrapper
+{
+text-align: center;
+}
+.description
+{
+  background-color: lightblue;
+    border: 1px black;
+    padding: 20px solid gray;
+    float: left;   
+    width: 52%;
+}
+#two_column {
+    background-color: #FFFF00;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #00FF00;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.center {
+    margin: 25px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
