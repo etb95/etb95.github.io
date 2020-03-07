@@ -29,6 +29,14 @@ ul {
 	font-size: 1.25em;
 }
 
+nav a{
+    color: lightblue;
+}
+
+nav a:hover{
+    color: pink;
+}
+
 div { text-align: center; }
 ul { display: inline-block; text-align: left;}
 
@@ -38,8 +46,7 @@ a {
 
 #one{
 background-color: lightblue;
-border: 1px solid gray;
-padding: 2.5% gray;
+border: 1px lightblue;
 margin: 25px;
 }
 
@@ -67,7 +74,7 @@ text-align: center;
 background-color: green;
 font-family: sans-serif;
 font-size: 1em;
-border: 1px black solid;
+border: 1px green solid;
 padding: 2.5%;
 float: left;
 width: 40%;
@@ -94,7 +101,7 @@ text-align: center;
   font-family: sans-serif;
   font-size: 1em;
     border: 1px black;
-    padding: 2.5% black solid;
+    padding: 1%;
     float: left;   
     width: 52%;
 }
@@ -119,7 +126,7 @@ text-align: center;
 
 #right {
     background-color: pink;
-    border: 0 1% black;
+    border: 1px black solid;
     padding: 2%;
     float: right;   
     width: 45%;
@@ -144,27 +151,31 @@ text-align: center;
     height: 0;
 }
 
-@media screen only and (min-width: 250px) and (max-width: 500px)
+@media only screen and (min-width: 250px) and (max-width: 500px)
 {
-p {
+body {
     font-size: 0.625em;
-    font-color: yellow;
-}
+    background-color: grey;
+     }
+
+     nav a:hover{
+        color: purple;
+     }
 
 #one {
-    font-size: 0.5em;
+    font-size: 0.625em;
     float: none;
     width: auto;
 }
 
 .ricky {
-    font-size: 0.5em;
+    font-size: 0.625em;
     float: none;
     width: auto;
 }
 
 .description {
-    font-size: 0.5em;
+    font-size: 0.625em;
     float: none;
     width: auto;
 }
@@ -186,35 +197,45 @@ p {
     float: none;
     width: auto;
 }
-@media screen only and (min-width: 120px) and (max-width: 249px)
+}
+@media only screen and (max-width: 249px)
 {
-
-p{
+body {
     font-size: 0.25em;
-    font-color: yellow;
+    background-color: grey;
   }
 
 #one{
-    font-size: 0.25em;
+    font-size: 0.125em;
     float: none;
     width: auto;
-    background: yellow;
+    background-color: grey;
       }
 
 .ricky{
-    font-size: 0.25em;
+    font-size: 0.125em;
     float: none;
     width: auto;
         }
 
 .description{
-    font-size: 0.25em;
+    font-size: 0.125em;
     float: none;
     width: auto;
              }
 #two_column{
-     font-size: 0.25em;
+     font-size: 0.2em;
      float: none;
      width: auto;
            }
+#left{
+    font-size: 0.2em;
+    float: none;
+    width: auto;
+}
+#right{
+    font-size: 0.2em;
+    float: none;
+    width: auto;
+}
 }
