@@ -1,0 +1,200 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+}
+p {
+	color: white;
+	font-family: oswald;
+    font-style: normal;
+    font-size: 1.25em;
+}
+h2 {
+	color: white;
+	font-family: bottom;
+}
+h3 {
+	color: white;
+	font-family: sans-serif;
+}
+h4 {
+    font-family: sans-serif;
+}
+ul {
+	color: lightblue;
+	font-family: serif;
+	font-size: 1.25em;
+}
+
+nav a{
+    color: lightblue;
+}
+
+nav a:hover{
+    color: pink;
+}
+
+div { text-align: center; }
+ul { display: inline-block; text-align: left;}
+
+a {
+	color: lightblue;
+}
+
+#one{
+background-color: lightblue;
+border: 1px lightblue;
+margin: 25px;
+}
+
+#two{
+background-color: black;
+border: 1px solid gray;
+padding: 2.5%;
+}
+
+#three{
+background-color: black;
+border: 1px solid white;
+padding: 20px;
+}
+#four{
+text-align: center;
+}
+
+#block{
+	text-align:center;
+	display: inline-block;
+}
+
+.ricky{
+background-color: green;
+font-family: sans-serif;
+font-size: 1em;
+border: 1px green solid;
+padding: 2.5%;
+float: left;
+width: 40%;
+}
+.Training
+{
+    width: 80%;
+}
+.wrapper
+{
+text-align: center;
+}
+.gym
+{
+text-align: center;
+}
+.group
+{
+text-align: center;
+}
+.description
+{
+  background-color: lightblue;
+  font-family: sans-serif;
+  font-size: 1em;
+    border: 1px black;
+    padding: 1%;
+    float: left;   
+    width: 52%;
+}
+.alipic
+{
+    width: 80%;
+}
+#two_column {
+    background-color: #FFFF00;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #00FF00;
+    border: 1px black solid;
+    padding: 2%;
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 2%;
+    float: right;   
+    width: 45%;
+    text-align: center;
+}
+.worker
+{
+    width: 40%;
+}
+
+.center {
+    margin: 25px;
+    width: 80%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 500px)
+{
+body {
+    font-size: 0.625em;
+    background-color: grey;
+     }
+
+     nav a:hover{
+        color: purple;
+     }
+
+#one {
+    font-size: 0.625em;
+    float: none;
+    width: auto;
+}
+
+.ricky {
+    font-size: 0.625em;
+    float: none;
+    width: auto;
+}
+
+.description {
+    font-size: 0.625em;
+    float: none;
+    width: auto;
+}
+
+#two_column {
+     font-size: 0.5em;
+     float: none;
+     width: auto;
+}
+
+#left {
+    font-size: 0.5em;
+    float: none;
+    width: auto;
+}
+
+#right {
+    font-size: 0.5em;
+    float: none;
+    width: auto;
+}
+}
